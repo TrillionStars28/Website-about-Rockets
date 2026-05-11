@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-1 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.title-2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.title-desc-1 {
+    font-size: 14px;
+    text-align: center;
+    overflow-wrap: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-section-1 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr-1 {
+    width: 600px;
+    border: 2px white solid;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.float-left {
+    float: left;
+    width: 500px;
+    height: auto;
+    position: fixed 0px 0px;
+}
+
+.float-right {
+    float: right;
+    width: 500px;
+    height: auto;
+    position: fixed 1000px -500px;
+}
+
+.image-1 {
+    width: 1900px;
+    height: 200px;
+}

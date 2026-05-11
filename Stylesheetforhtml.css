@@ -1,0 +1,224 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-section-1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.title-2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.title-3{
+    font-size: 22px;
+    text-align: center;
+}
+
+.title-desc-3{
+    font-size: 14px;
+    text-align: justify;
+    overflow-wrap: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.subtext{
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-4-1, .title-4-2, .title-4-3{
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.title-4-1 {
+    padding-right: 850px;
+}
+
+.title-4-2 {
+    padding-right: 150px;
+}
+
+.title-4-3 {
+    padding-left: 550px;
+}
+
+.subtext-2-1, .subtext-2-2, .subtext-2-3{
+    line-height: 1.5;
+}
+
+.subtext-2-1{
+    font-size: 14px;
+    column-span: 1;
+    break-inside: avoid;
+}
+
+.subtext-2-2{
+    font-size: 14px;
+    column-span: 2;
+    break-inside: avoid;
+}
+
+.subtext-2-3{
+    font-size: 14px;
+    column-span: 3;
+    break-inside: avoid;
+}
+
+.column-text-1{
+    width: 1000px;
+    column-width: 300px;
+    padding-left: 450px;
+    padding-right: 450px;
+    column-count: 3;
+    column-gap: normal;
+    column-rule: 1px solid gray;
+    column-height: auto;
+}
+
+.hr-1{
+    width: 1000px;
+    border: 2px white solid;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.content-section-2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-5{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.title-desc-5{
+    font-size: 12px;
+    text-align: justify;
+    overflow-wrap: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.title-desc-6{
+    font-size: 14px;
+    text-align: justify;
+    overflow-wrap: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.subtext-3-1, .subtext-3-2, .subtext-3-3, .subtext-3-4{
+    font-size: 14px;
+    break-inside: avoid;
+    line-height: 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sub-title-1, .sub-title-2, .sub-title-3, .sub-title-4{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.content-section-3 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-7{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title-desc-7{
+    font-size: 14px;
+    text-align: justify;
+    overflow-wrap: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.float-left{
+    float: left;
+    width: 400px;
+    height: auto;
+    padding-top: 75px;
+    position: fixed 0px 0px;
+}
+
+.float-right{
+    float: right;
+    width: 400px;
+    height: auto;
+    padding-top: 75px;
+    position: fixed 1000px -500px;
+}
+
+.image-1{
+    width: 300px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image-2 {
+    width: 500px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a:link{
+    color: white
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+    text-decoration: none;
+}
+
+.Right {
+    text-align: center;
+    padding-top: 50px;
+}

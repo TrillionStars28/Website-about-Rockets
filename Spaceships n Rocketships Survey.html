@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheetforhtml2.css">
+    <title>SpaceShips and RocketShips Survey</title>
+    <div class="title-section">
+        <h1 class="title-1">Welcome to the Survey!</h1>
+        <p class="title-desc-1">We're excited to hear your thoughts about the website and the game! Just continue below to get started.</p>
+    </div>
+</head>
+<body>
+    <a href="https://images.nasa.gov/" target="_blank"><img
+            src="https://images-assets.nasa.gov/image/PIA00407/PIA00407~medium.jpg" alt="Picture of Mars"
+            class="float-left"></a>
+    <a href="https://images.nasa.gov/" target="_blank"><img
+            src="https://images-assets.nasa.gov/image/PIA00404/PIA00404~medium.jpg" alt="Picture of the moon"
+            class="float-right"></a>
+    <section class="content-section-1">
+        <hr class="hr-1">
+        <h1 class="title-2">What do you think about the website?</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Username:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label>How satisfied are you with our website?</label><br>
+            <input type="radio" id="very-satisfied" name="satisfaction" value="Very Satisfied">
+            <label for="very-satisfied">Very Satisfied</label><br>
+            <input type="radio" id="satisfied" name="satisfaction" value="Satisfied">
+            <label for="satisfied">Satisfied</label><br>
+            <input type="radio" id="neutral" name="satisfaction" value="Neutral">
+            <label for="neutral">Neutral</label><br>
+            <input type="radio" id="unsatisfied" name="satisfaction" value="Unsatisfied">
+            <label for="unsatisfied">Unsatisfied</label><br>
+            <input type="radio" id="very-unsatisfied" name="satisfaction" value="Very Unsatisfied">
+            <label for="very-unsatisfied">Very Unsatisfied</label><br><br>
+            <label>Which features did you find the most interesting? (Select all that apply)</label><br>
+            <input type="checkbox" name="features" value="Feature A"> The Interactive Pictures<br>
+            <input type="checkbox" name="features" value="Feature B"> The Informational Content<br>
+            <input type="checkbox" name="features" value="Feature C"> The Hands on Game<br><br>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Your feedback..."></textarea><br><br>
+            <input type="submit" value="Submit Survey">
+        </form>
+        <hr class="hr-1">
+        <p>1</p>
+    </section>
+</body>
+<footer>
+<img src="https://images-assets.nasa.gov/image/iss070e052303/iss070e052303~orig.jpg" alt="Picture of Earth's Horizon from space" class="image-1">
+</footer>
+</html>
